@@ -1,85 +1,80 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="cssfacebook.css">   
-
+    <title>Facebook</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 
-    <div class="heading">
-
-        <div class="FacebookName">
-            <h1>facebook</h1>
-        </div>
-        <div class="getDetails">
-
-            <form>
-
-                <label>Email or Phone</label>
-                <input type="text"p >
-
-                <label class="l2">Password</label>
-                <input type="text" >
-            
-                <button>Log In</button>
-            </form>
-            
-
-        </div>
-   </div>
-
-   <div class="middleContainer">
-
-        <div class="leftContainer">
-
-            <h2>Recent Logins</h2>
-            <p>Click your picture or add an account.</p>
-
-            <div class="profiles">
-
-            <div class="onkarProfile">
-               <a href="https://www.facebook.com/login/device-based/regular/login/"> <img  class="image1" src="image data/onkarMS.jpeg" width="180" height="260">
-                <p>Onkar</p></a>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-center mb-4">
+                    <h1>Facebook</h1>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <form>
+                        <div class="form-group">
+                            <label for="emailOrPhone">Email or Phone</label>
+                            <input type="text" class="form-control" id="emailOrPhone">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Log In</button>
+                    </form>
+                </div>
             </div>
-            
-            <div class="elonProfile">
-                <a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110"><img class="image2" src="image data/elonmusk.jpg" width="170" height="260">
-                <h2>Elon</h2></a>
+            <div class="col-lg-6">
+                <h2 class="mb-3">Create a new Account</h2>
+                <p>It's quick and easy.</p>
+                <form class="getData">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Middle Name">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Mobile Number or Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="New Password">
+                    </div>
+                    <div class="form-group">
+                        <label>Date of Birth</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="male">
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="female">
+                            <label class="form-check-label" for="female">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="notToSay">
+                            <label class="form-check-label" for="notToSay">Prefer Not to Say</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                </form>
             </div>
-
-            <div class="addAccount">
-             <a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110">   <img class="image3" src="image data/addAccount.jpeg" width="170" height="200">
-                <h3>Add Account</h3></a>
-            </div>
         </div>
+    </div>
 
-
-        </div>
-        <div class="rightContainer">
-            <h2>Create a new Account</h2>
-            <p>It's quick and easy.</p>
-
-            <form action="" class="getData">
-                <input type="text" placeholder="First Name of person" style="width: 250px;">
-                 <input type="text" placeholder="Middle Name of person" style="width: 280px;">
-                <input type="text" placeholder="Last Name of person" style="width: 250px;"><br>
-                <input class="email"type="text" placeholder="Mobile Number or Email Address" style="width: 500px;"  ><br>
-                <input type="text" placeholder="New Password"style="width: 500px;">
-                <br><br>
-                <label >Date of Birth</label><br>
-                <input type="date" style="background-color:;"><br>
-                <label >Gender</label><br>
-
-                <input type="radio" type="gender" name="Gender" >Male
-                <input type="radio" type="gender" name="Gender" >Female
-                <input type="radio" type="gender" name="Gender" >Prefer Not to say
-                <br><br>
-                <button>Sign Up</button>
-            </form>
-        </div>
-
-   </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-</html>     
+</html>
