@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -12,7 +13,7 @@
     margin: 0;
     padding: 0;
     height: 100px;
-    background-color:#ff0000 ;
+    background-color:#3b5998 ;
     display: flex;
 
 }
@@ -62,7 +63,7 @@ form{
 
 .middleContainer{
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-color: rgb(211, 210, 210);
     display: flex;
     color:hsl(20, 5%, 12%);
@@ -113,7 +114,7 @@ form{
     color: gray;
 }
 .rightContainer button{
-    margin-left: 40px;
+    margin-left: 20px;
     cursor: pointer;
     color:white;
     font-size: 35px;
@@ -182,16 +183,20 @@ a{
 }
 .addAccount h3{
     width: 170px;
-    font-weight: 200;
-    margin-top: -30px;
-    margin-left:570px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left:370px;
     font-size: 28px;
     text-align: center;
     background-color: white;
 }
 
-.l2{
-    padding: 33px;
-    padding: top 5px;
+.getdata input{
+    border-radius: 5px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 50px;
 }
 

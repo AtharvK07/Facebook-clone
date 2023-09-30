@@ -1,0 +1,211 @@
+*{
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Sans-serif;
+}
+
+
+.heading{
+  
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  background-color:#eca1a6 ;
+  display: flex;
+
+}
+.facebookName{
+  
+  width: 50%;
+
+}
+.facebookName h1{
+  
+  font-size: 45px;
+  color:rgb(255, 255, 255);
+  padding: 25px 0px 0px 250px ;
+}
+.getDetails{
+
+  width: 50%;
+}
+
+form{
+  margin-left: 80px;
+  margin-top: 25px;
+  color: white;
+  font-weight: 600;
+  
+}
+.getDetails text{
+  padding-left: 10px;
+
+}
+.getDetails label{
+  padding-left: 10px;
+}
+.getDetails button{
+  
+  background-color: #607ebe;
+  color: white;
+  padding: 3px 10px;
+  margin-left: 20px;
+}
+.getDetails button:hover{
+  
+  background-color: #1b3366;
+  color: white;
+  
+}
+
+.middleContainer{
+  width: 100%;
+  height: 80%;
+  background-color: rgb(211, 210, 210);
+  display: flex;
+  color:hsl(20, 5%, 12%);
+}
+.leftContainer{
+  width: 50%;
+
+}
+.rightContainer{
+  width: 50%;
+}
+.leftContainer h2{
+  font-size: 44px;
+  margin-top: 30px;
+  margin-left: 180px;
+}
+.leftContainer p{
+  font-size: 25px;
+  margin-top: 3px;
+  margin-left: 175px;
+
+}
+.rightContainer h2{
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+.rightContainer p{
+  font-size: 25px;
+  margin-top: 3px;
+  margin-left: 75px;
+}
+.getData{
+  margin-top: 10px;
+}
+.middleContainer input { font-size:24px;
+  outline-color:lightgray;
+  outline-width: thick;
+  padding: 8px;
+  margin-top: 20px;
+}
+.rightContainer form{
+  color: rgb(76, 71, 71);
+  font-size: 23px;
+ font-weight: 500; 
+}
+.rightContainer label{
+  color: gray;
+}
+.rightContainer button{
+  margin-left: 20px;
+  cursor: pointer;
+  color:white;
+  font-size: 35px;
+  border-radius: 25px;
+  padding:6px 30px;
+  background-color: rgba(71, 179, 71, 0.918);
+  overflow: hidden;
+}
+.rightContainer button:hover{
+  margin-left: 20px;
+  color:white;
+  font-size: 34px;
+  border-radius: 25px;
+  padding:6px 30px;
+  background-color: rgba(47, 105, 47, 0.918);
+  overflow: hidden;
+}
+.onkarProfile{
+  width: 100px;
+  height: 100px;
+
+}
+
+.leftContainer img{
+
+  border:solid rgb(190, 190, 190) 3px;
+}
+.image1{
+  margin-left: 170px;
+  margin-top:30px;
+  cursor: pointer;
+  
+}
+a{
+  text-decoration: none;
+}
+.image2{
+  margin-left: 370px;
+  margin-top:-70px;
+  cursor: pointer;
+
+}
+.image3{
+  margin-left: 570px;
+  margin-top:-220px;
+  cursor: pointer;
+  background-color: #e77510;
+  color: #607ebe;
+}
+.onkarProfile p{
+  width: 170px;
+  margin-top: 0px;
+  margin-left: 170px;
+  font-size: 28px;
+  text-align: center;
+  background-color: white;
+}
+.elonProfile h2{
+  width: 170px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-left:370px;
+  font-size: 28px;
+  text-align: center;
+  background-color: white;
+}
+.addAccount h3{
+  width: 170px;
+  font-weight: 200;
+  margin-top: -30px;
+  margin-left:570px;
+  font-size: 28px;
+  text-align: center;
+  background-color: white;
+}
+
+/*The provided CSS code is a stylesheet for styling a webpage, and it appears to be designed for a social media-related webpage, possibly for a profile page. Here's a short description of the key styling elements:
+
+1. **Font Import and Reset**: It imports the 'Roboto Condensed' font from Google Fonts and resets default margin, padding, and box-sizing for all HTML elements. It sets the default font to 'Roboto Condensed' for the entire document.
+
+2. **Header Styling**: Styles the header section with a background color, flex layout, and two components, 'facebookName' and 'getDetails'. The 'facebookName' component contains a heading with specific styling.
+
+3. **Form Styling**: The 'getDetails' form is styled with margins, colors, and a button that changes background color on hover.
+
+4. **Middle Container**: Styles the middle container section with a background color and flex layout, including 'leftContainer' and 'rightContainer'. The 'leftContainer' contains headings and text with specified margins, and the 'rightContainer' has similar styling.
+
+5. **Input Styling**: Styles input fields with font size, outline, padding, and margin. It also styles the right container form and labels.
+
+6. **Button Styling**: Styles buttons with colors, font size, and padding. The button changes its background color on hover.
+
+7. **Profile Image Styling**: Styles profile images with borders, and there are three images with classes 'image1', 'image2', and 'image3'. These images have specific margins and cursor styles. Text is positioned below each image with background color.
+
+8. **Anchor Styling**: Sets text decoration for anchor (link) elements.
+
+Overall, this CSS code provides a visual style for a webpage, including header, forms, text, buttons, and profile images. It follows a modern and clean design style with a focus on social media profile elements.*/
