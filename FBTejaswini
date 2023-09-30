@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-center mb-4">
+                    <h1>My Awesome Social Media</h1> <!-- Change the title -->
+                </div>
+                <div class="bg-dark p-4 rounded shadow"> <!-- Change background color -->
+                    <form>
+                        <div class="form-group">
+                            <label for="emailOrPhone">Username or Email</label> <!-- Change label text -->
+                            <input type="text" class="form-control" id="emailOrPhone">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Secret Password</label> <!-- Change label text -->
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">Log In</button> <!-- Change button color -->
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-3">Join the Revolution</h2> <!-- Change heading -->
+                <p>It's super fun and exciting!</p>
+                <form class="getData">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Nickname"> <!-- Change placeholder -->
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Phone Number or Email Address"> <!-- Change placeholder -->
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Super Secret Password"> <!-- Change placeholder -->
+                    </div>
+                    <div class="form-group">
+                        <label>Birthdate</label> <!-- Change label text -->
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Choose Your Superpower</label><br> <!-- Change label text -->
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="superpower" id="flight"> <!-- Change ID and label text -->
+                            <label class="form-check-label" for="flight">Flight</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="superpower" id="invisibility"> <!-- Change ID and label text -->
+                            <label class="form-check-label" for="invisibility">Invisibility</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="superpower" id="teleportation"> <!-- Change ID and label text -->
+                            <label class="form-check-label" for="teleportation">Teleportation</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-warning btn-block">Join Now</button> <!-- Change button color -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
