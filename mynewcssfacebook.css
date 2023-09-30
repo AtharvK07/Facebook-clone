@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; /* Changed to a sans-serif font for better readability */
+}
+
+.heading {
+    width: 100%;
+    height: 100px;
+    background-color: #ff0000; /* Changed background color to red */
+    display: flex;
+    justify-content: space-between; /* Centered the content horizontally */
+    align-items: center; /* Centered the content vertically */
+}
+
+.facebookName {
+    width: 50%;
+}
+
+.facebookName h1 {
+    font-size: 36px; /* Slightly reduced the font size */
+    color: #fff; /* Changed text color to white */
+    padding-left: 20px; /* Adjusted padding */
+}
+
+.getDetails {
+    width: 50%;
+    display: flex;
+    align-items: center; /* Centered the content vertically */
+}
+
+form {
+    margin-left: 20px; /* Reduced margin */
+    color: white;
+    font-weight: 600;
+}
+
+.getDetails text {
+    padding-left: 10px;
+}
+
+.getDetails label {
+    padding-left: 10px;
+}
+
+.getDetails button {
+    background-color: #607ebe;
+    color: white;
+    padding: 12px 25px; /* Increased padding for better button appearance */
+    margin-left: 8px; /* margin changed */
+}
+
+.getDetails button:hover {
+    background-color: #1b3366;
+}
+
+.middleContainer {
+    width: 100%;
+    height: auto; /* Changed height to auto for dynamic content */
+    background-color: rgb(211, 210, 210);
+    display: flex;
+    color: hsl(20, 5%, 12%);
+}
+
+.leftContainer {
+    width: 50%;
+    padding: 35px; /* Added padding */
+}
+
+.rightContainer {
+    width: 50%;
+    padding: 25px; /* Added padding */
+}
+
+.leftContainer h2 {
+    font-size: 45px; /* Reduced font size */
+    margin-top: 20px; /* Adjusted margin */
+    margin-left: 0; /* Removed margin-left */
+}
+
+.leftContainer p {
+    font-size: 26px; /* icreased font size */
+    margin-top: 3px;
+    margin-left: 0; /* Removed margin-left */
+}
+
+.rightContainer h2 {
+    font-size: 36px; /* Increased font size */
+    margin-top: 20px; /* Adjusted margin */
+    margin-left: 0; /* Removed margin-left */
+}
+
+.rightContainer p {
+    font-size: 20px; /* Reduced font size */
+    margin-top: 3px;
+    margin-left: 0; /* Removed margin-left */
+}
+
+.getData {
+    margin-top: 10px;
+}
+
+.middleContainer input {
+    font-size: 18px; /* Reduced font size */
+    outline-color: lightgray;
+    outline-width: thick;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+.rightContainer form {
+    color: rgb(76, 71, 71);
+    font-size: 20px; /* Reduced font size */
+    font-weight: 500;
+}
+
+.rightContainer label {
+    color: gray;
+}
+
+.rightContainer button {
+    margin-left: 20px; /* Reduced margin */
+    cursor: pointer;
+    color: white;
+    font-size: 24px; /* Increased font size */
+    border-radius: 25px;
+    padding: 6px 30px;
+    background-color: rgba(71, 179, 71, 0.918);
+    overflow: hidden;
+}
+
+.rightContainer button:hover {
+    margin-left: 10px; /* Reduced margin */
+    font-size: 24px; /* Kept font size consistent */
+    background-color: rgba(47, 105, 47, 0.918);
+    overflow: hidden;
+}
+
+.onkarProfile {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; /* Centered the element horizontally */
+}
+
+.leftContainer img {
+    border: solid rgb(190, 190, 190) 3px;
+}
+
+.image1 {
+    margin: 0 auto; /* Centered the element horizontally */
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image2 {
+    margin: 0 auto; /* Centered the element horizontally */
+    margin-top: -70px;
+    cursor: pointer;
+}
+
+.image3 {
+    margin: 0 auto; /* Centered the element horizontally */
+    margin-top: -220px;
+    cursor: pointer;
+    background-color: #3b5998;
+    color: #607ebe;
+}
+
+.onkarProfile p {
+    width: 170px;
+    margin: 0 auto; /* Centered the element horizontally */
+    font-size: 20px; /* Reduced font size */
+    text-align: center;
+    background-color: white;
+}
+
+.elonProfile h2 {
+    width: 170px;
+    font-weight: 400;
+    margin: 0 auto; /* Centered the element horizontally */
+    font-size: 20px; /* Reduced font size */
+    text-align: center;
+    background-color: white;
+}
+
+.addAccount h3 {
+    width: 170px;
+    font-weight: 200;
+    margin: 0 auto; /* Centered the element horizontally */
+    font-size: 20px; /* Reduced font size */
+    text-align: center;
+    background-color: white;
+}
+
+.l2 {
+    padding: 5px; /* Corrected padding property */
+}
