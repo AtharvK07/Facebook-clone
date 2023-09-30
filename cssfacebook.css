@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.heading{
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    background-color:#3b5998 ;
+    display: flex;
+
+}
+.facebookName{
+    
+    width: 50%;
+
+}
+.facebookName h1{
+    
+    font-size: 45px;
+    color:rgb(255, 255, 255);
+    padding: 25px 0px 0px 250px ;
+}
+.getDetails{
+
+    width: 50%;
+}
+
+form{
+    margin-left: 80px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+    
+}
+.getDetails text{
+    padding-left: 10px;
+
+}
+.getDetails label{
+    padding-left: 10px;
+}
+.getDetails button{
+    
+    background-color: #607ebe;
+    color: white;
+    padding: 3px 10px;
+    margin-left: 20px;
+}
+.getDetails button:hover{
+    
+    background-color: #1b3366;
+    color: white;
+    
+}
+
+.middleContainer{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(211, 210, 210);
+    display: flex;
+    color:hsl(20, 5%, 12%);
+}
+.leftContainer{
+    width: 50%;
+
+}
+.rightContainer{
+    width: 50%;
+}
+.leftContainer h2{
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.leftContainer p{
+    font-size: 25px;
+    margin-top: 3px;
+    margin-left: 175px;
+
+}
+.rightContainer h2{
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.rightContainer p{
+    font-size: 25px;
+    margin-top: 3px;
+    margin-left: 75px;
+}
+.getData{
+    margin-top: 10px;
+}
+.middleContainer input { font-size:24px;
+    outline-color:lightgray;
+    outline-width: thick;
+    padding: 7px;
+    margin-top: 20px;
+}
+.rightContainer form{
+    color: rgb(76, 71, 71);
+    font-size: 23px;
+   font-weight: 500; 
+}
+.rightContainer label{
+    color: gray;
+}
+.rightContainer button{
+    margin-left: 20px;
+    cursor: pointer;
+    color:white;
+    font-size: 35px;
+    border-radius: 25px;
+    padding:6px 30px;
+    background-color: rgba(71, 179, 71, 0.918);
+    overflow: hidden;
+}
+.rightContainer button:hover{
+    margin-left: 20px;
+    color:white;
+    font-size: 34px;
+    border-radius: 25px;
+    padding:6px 30px;
+    background-color: rgba(47, 105, 47, 0.918);
+    overflow: hidden;
+}
+.onkarProfile{
+    width: 100px;
+    height: 100px;
+
+}
+
+.leftContainer img{
+
+    border:solid rgb(190, 190, 190) 3px;
+}
+.image1{
+    margin-left: 170px;
+    margin-top:30px;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+.image2{
+    margin-left: 370px;
+    margin-top:-70px;
+    cursor: pointer;
+
+}
+.image3{
+    margin-left: 570px;
+    margin-top:-220px;
+    cursor: pointer;
+    background-color: #3b5998;
+    color: #607ebe;
+}
+.onkarProfile p{
+    width: 170px;
+    margin-top: 0px;
+    margin-left: 170px;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+}
+.elonProfile h2{
+    width: 170px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left:370px;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+}
+.addAccount h3{
+    width: 170px;
+    font-weight: 200;
+    margin-top: -30px;
+    margin-left:570px;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+}
+

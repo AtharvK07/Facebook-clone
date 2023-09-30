@@ -1,2 +1,1 @@
-# Facebook-clone
-hacktoberfest
+# Facebook-Home
